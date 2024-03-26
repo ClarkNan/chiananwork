@@ -1,0 +1,62 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 微軟正黑體;
+  overflow: auto;
+  min-width: 1200px;
+}
+
+.main-header {
+  width: 100%;
+  border: solid 1px #000;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.main-header ul {
+  display: flex;
+  margin: 0px;
+  padding: 10px;
+}
+.main-header nav a {
+  padding: 11px 20px;
+  margin: 0px;
+  text-decoration: none;
+  color: #000;
+}
+.main-header nav a:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.header-search {
+  padding: 0px;
+  margin: 0px;
+}
+.header-search input {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+.header-search input:focus {
+  outline: none;
+}
+.header-search button {
+  padding: 12px 20px;
+  margin: 0px;
+  border: none;
+  background-color: #fff;
+}
+.header-search button:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}/*# sourceMappingURL=nav.css.map */

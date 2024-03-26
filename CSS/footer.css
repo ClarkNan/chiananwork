@@ -1,0 +1,34 @@
+.main-footer {
+  width: 100%;
+  padding: 50px 0 0;
+  background-color: rgb(255, 255, 255);
+}
+.main-footer .container-footer {
+  display: flex;
+  margin: auto;
+}
+.main-footer .container-footer .footer-item {
+  width: 0;
+  margin: 0 20px;
+  flex-grow: 1;
+}
+.main-footer .container-footer .footer-item h4 {
+  font-size: 24px;
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+.main-footer .container-footer .footer-item nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.conpyright {
+  width: 100%;
+  text-align: center;
+  margin: 150px 0 0;
+  padding: 10px 0;
+  background-color: #000000;
+  color: #ffffff;
+}/*# sourceMappingURL=footer.css.map */
